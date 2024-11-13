@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="centro">
+    <h1>Sua lista de series</h1>
+</div>
+
+<div class="formulario">
+    <form action="">
+      <mat-form-field appearance="fill">
+        <mat-label>Adicionar uma série</mat-label>
+        <input matInput placeholder="Arcane" [(ngModel)]="nome" name="nome" style="margin-right: 10px;">
+      </mat-form-field>
+      <button mat-button (click)="addSerie()">Adicionar</button>
+    </form>
+</div>
+
+<div class="alinha">
+  @for(s of series;track s){
+    <app-card [serie]="s"></app-card>
+  }
+</div>

@@ -1,0 +1,36 @@
+@if (tipo && filme) {
+    <mat-card class="movie-card">
+        <mat-card-header>
+            <mat-card-title>
+                {{filme.Title}}
+            </mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="filme.Poster" alt="{{filme.Title}} Poster" class="movie-poster">
+        <mat-card-content class="movie-runtime">
+            {{filme.Runtime}} -- Imdb: {{filme.imdbRating}}
+        </mat-card-content>
+        <mat-card-content class="centro">
+            <button mat-button (click)="deleteFilme(filme.id)">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </mat-card-content>
+    </mat-card>
+} @else if(!tipo && serie) {
+    <mat-card class="movie-card">
+        <mat-card-header>
+            <mat-card-title>
+                {{serie.Title}}
+            </mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="serie.Poster" alt="{{serie.Title}} Poster" class="movie-poster">
+        <mat-card-content class="movie-runtime">
+            {{serie.totalSeasons}} Temporadas -- Imdb: {{serie.imdbRating}}
+        </mat-card-content>
+        <mat-card-content class="centro">
+            <button mat-button (click)="deleteSerie(serie.id)">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </mat-card-content>
+    </mat-card> 
+}
+

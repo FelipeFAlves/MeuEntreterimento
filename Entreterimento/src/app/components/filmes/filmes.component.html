@@ -1,0 +1,26 @@
+<header>
+    <app-navbar></app-navbar>
+</header>
+
+<body>
+    <div class="centro">
+        <h1>Sua lista de filmes</h1>
+    </div>
+
+    <div class="formulario">
+        <form action="">
+          <mat-form-field appearance="fill">
+            <mat-label>Adicionar um filme</mat-label>
+            <input matInput placeholder="Arcane" [(ngModel)]="nome" name="nome" style="margin-right: 10px;">
+          </mat-form-field>
+          <button mat-button (click)="filme()">Adicionar</button>
+        </form>
+    </div>
+
+    <div class="alinha">
+        @for(f of filmes; track f){
+            <app-card [filme]="f"></app-card>
+        }
+    </div>
+    
+</body>

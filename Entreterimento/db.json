@@ -1,0 +1,12 @@
+{
+  "filmes": [],
+  "series": [
+    {
+      "id": "tt11126994",
+      "imdbRating": "9.0",
+      "Title": "Arcane",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_SX300.jpg",
+      "totalSeasons": "2"
+    }
+  ]
+}

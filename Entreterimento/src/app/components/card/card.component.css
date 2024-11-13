@@ -1,0 +1,24 @@
+.movie-card {
+    max-width: 400px;
+    margin: 16px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.movie-runtime {
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+}
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

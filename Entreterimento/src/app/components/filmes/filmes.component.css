@@ -1,0 +1,18 @@
+.centro{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.alinha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.formulario {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
