@@ -4,17 +4,17 @@
 </div>
 
 <div class="formulario">
-    <form action="">
-      <mat-form-field appearance="fill">
-        <mat-label>Adicionar uma série</mat-label>
-        <input matInput placeholder="Arcane" [(ngModel)]="nome" name="nome" style="margin-right: 10px;">
-      </mat-form-field>
-      <button mat-button (click)="addSerie()">Adicionar</button>
-    </form>
+  <form [formGroup]="formSerie" (ngSubmit)="addSerie()">
+    <mat-form-field appearance="fill">
+      <mat-label>Adicionar uma série</mat-label>
+      <input matInput placeholder="Arcane" formControlName="nome" name="nome" style="margin-right: 10px;">
+    </mat-form-field>
+    <button mat-button type="submit">Adicionar</button>
+  </form>
 </div>
 
 <div class="alinha">
   @for(s of series;track s){
     <app-card [serie]="s"></app-card>
   }
-</div>
+</div> 

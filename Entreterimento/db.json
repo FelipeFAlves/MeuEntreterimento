@@ -1,5 +1,62 @@
 {
-  "filmes": [],
+  "filmes": [
+    {
+      "id": "tt3967856",
+      "imdbRating": "7.3",
+      "Title": "Okja",
+      "Runtime": "120 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjQxMTcxNDgxN15BMl5BanBnXkFtZTgwOTczNTIzMjI@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt0264616",
+      "imdbRating": "7.2",
+      "Title": "Frailty",
+      "Runtime": "100 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2MyMWVjNGYtZmRkOC00ZWI4LWI2OWEtYzY3YjNiZjgwNGFkXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt5177120",
+      "imdbRating": "6.8",
+      "Title": "The Ministry of Ungentlemanly Warfare",
+      "Runtime": "122 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmIxODc5ZjMtYzZmZS00OTE5LThkZDktNWNmODNiZjFhMDgyXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt2061551",
+      "imdbRating": "8.2",
+      "Title": "Bunny Drop",
+      "Runtime": "24 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODUzNzFjNmEtOTFhZS00NTFkLWFiNjQtYzBkYWFlZTNhYWEwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt2355495",
+      "imdbRating": "6.5",
+      "Title": "Barefoot",
+      "Runtime": "90 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg0NzIxOTgxM15BMl5BanBnXkFtZTgwMjA3NjY3MDE@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt11365186",
+      "imdbRating": "6.7",
+      "Title": "Redeeming Love",
+      "Runtime": "134 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzY5ZjRhNDgtZjNmYS00NGNhLWJhYWMtNDg3YjZlNTlkNjMzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt3700392",
+      "imdbRating": "7.4",
+      "Title": "Heidi",
+      "Runtime": "111 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjI4ODQ0NTk1MF5BMl5BanBnXkFtZTgwMTg4NDM1NzE@._V1_SX300.jpg"
+    },
+    {
+      "id": "tt3200980",
+      "imdbRating": "6.6",
+      "Title": "Where Hope Grows",
+      "Runtime": "95 min",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY1MjUxOTU0OF5BMl5BanBnXkFtZTgwMDYxNTQ0NDE@._V1_SX300.jpg"
+    }
+  ],
   "series": [
     {
       "id": "tt11126994",
@@ -7,6 +64,41 @@
       "Title": "Arcane",
       "Poster": "https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_SX300.jpg",
       "totalSeasons": "2"
+    },
+    {
+      "id": "tt11514868",
+      "imdbRating": "6.5",
+      "Title": "The Perfect Couple",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTRmNDBjNWEtODc5My00YjEyLWJlY2EtODhmYTcxYTcyMzRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "totalSeasons": "1"
+    },
+    {
+      "id": "tt11743610",
+      "imdbRating": "7.9",
+      "Title": "The Terminal List",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTU3NDc5OTYtNjUxNS00MzgxLWI3YjItZmZmNWJkYTNiNGUwXkEyXkFqcGc@._V1_SX300.jpg",
+      "totalSeasons": "1"
+    },
+    {
+      "id": "tt10574236",
+      "imdbRating": "7.6",
+      "Title": "Station Eleven",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNWJhMTg4NTItYzNhYy00ZDViLTk0NTAtOGMyZTE4YWUxZmM3XkEyXkFqcGc@._V1_SX300.jpg",
+      "totalSeasons": "1"
+    },
+    {
+      "id": "tt11514868",
+      "imdbRating": "6.5",
+      "Title": "The Perfect Couple",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTRmNDBjNWEtODc5My00YjEyLWJlY2EtODhmYTcxYTcyMzRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "totalSeasons": "1"
+    },
+    {
+      "id": "tt11514868",
+      "imdbRating": "6.5",
+      "Title": "The Perfect Couple",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTRmNDBjNWEtODc5My00YjEyLWJlY2EtODhmYTcxYTcyMzRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "totalSeasons": "1"
     }
   ]
 }
